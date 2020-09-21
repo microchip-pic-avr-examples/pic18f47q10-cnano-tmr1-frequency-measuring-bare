@@ -3,27 +3,27 @@
     "category": "com.microchip.ide.project",
     "content": {
         "metaDataVersion": "1.1.0",
-        "name": "com.microchip.mcu8.mplabx.project.",
-        "version": " ",
-        "displayName": "  ",
-        "projectName": "",
-        "shortDescription": "",
+        "name": "com.microchip.mcu8.mplabx.project.pic18f47q10-cnano-tmr1-frequency-measuring-bare",
+        "version": "1.0.1",
+        "displayName": "Using TMR1 Gate to measure frequency",
+        "projectName": "pic18f47q10-cnano-tmr1-frequency-measuring-bare",
+        "shortDescription": "This example shows how to use the TMR1 configured in gate single pulse and toggle combined mode. It with sample a full period of a signal. A GPIO pin will be configured as input and it will be connected to a periodical signal.",
         "ide": {
-            "name": "",
-            "semverRange": ""
+            "name": "MPLAB X",
+            "semverRange": ">=5.30.0"
         },
         "compiler": [
 			{
-				"name": "",
-				"semverRange": ""
+				"name": "XC8",
+				"semverRange": "^2.10.0"
 			}
 		],
         "dfp": {
-            "name": "",
-            "semverRange": ""
+            "name": "PIC18F-Q_DFP",
+            "semverRange": "^1.3.89"
         },
         "configurator": {
-            "name": "",
+            "name": "N/A",
             "semverRange": ""
         },
         "device": {
@@ -32,26 +32,27 @@
             "content": {
                 "metaDataVersion": "1.0.0",
                 "category": "com.microchip.device",
-                "name": "",
+                "name": "PIC18F47Q10",
                 "versionRange": "*"
             }
         },
-        "author": "",
+        "author": "Microchip",
         "subcategories": [
-            "",
+            "Peripherals",
             [
-               "Peripherals", ""
-            ],
-            [
-               "Peripherals", ""
-            ]            			
+               "Peripherals", "TIMER", "TMR1"
+            ]           			
         ],
         "peripherals": [
-            "",""
+            "TIMER", "TMR1"
         ],
         "keywords": [
-            "",
-            ""			
+            "Getting Started",
+			"Timers/Counters",
+            "Timer/Counter",
+            "Periodical Signal",
+            "Frequency Measurement",
+            "Bare Metal"
         ],
 		"additionalData": {
 			"longDescription": {
