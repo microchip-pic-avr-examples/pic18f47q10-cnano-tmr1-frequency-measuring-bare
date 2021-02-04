@@ -4,7 +4,7 @@
     "content": {
         "metaDataVersion": "1.1.0",
         "name": "com.microchip.mcu8.mplabx.project.pic18f47q10-cnano-tmr1-frequency-measuring-bare",
-        "version": "1.0.1",
+        "version": "1.0.2",
         "displayName": "Using TMR1 Gate to measure frequency",
         "projectName": "pic18f47q10-cnano-tmr1-frequency-measuring-bare",
         "shortDescription": "This example shows how to use the TMR1 configured in gate single pulse and toggle combined mode. It with sample a full period of a signal. A GPIO pin will be configured as input and it will be connected to a periodical signal.",
@@ -39,16 +39,16 @@
         "author": "Microchip",
         "subcategories": [
             [
-               "Peripherals", "TIMER", "TMR1"
+               "Peripherals",
+			   "TMR1"
             ]           			
         ],
         "peripherals": [
-            "TIMER", "TMR1"
+            "TMR1"
         ],
         "keywords": [
             "Getting Started",
 			"Timers/Counters",
-            "Timer/Counter",
             "Periodical Signal",
             "Frequency Measurement",
             "Bare Metal"
